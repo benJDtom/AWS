@@ -1,10 +1,9 @@
 # AWS
 My journey to learning and understanding AWS.
 
-**2020-06-13:** Successfully passed the AWS Certified Solutions Architect – Associate exam - [Link](https://www.youracclaim.com/badges/ad704ac3-49aa-4e13-9fd8-aa95f7cde3ae/linked_in)
+**2020-06-13:** Successfully passed the AWS Certified Solutions Architect – Associate exam  [Link](https://www.youracclaim.com/badges/ad704ac3-49aa-4e13-9fd8-aa95f7cde3ae/linked_in)
 
 # Website Project
-## Phase 1: Inital Planning and Research
 ### Goal
 Host a basic website featuring information about me, my projects and contact information on how I can be reached in AWS using the Well Architectured Framework approach.
 
@@ -36,8 +35,8 @@ To keep costs down and achieve cost optimization, I am planning to use an S3 buc
 ## Outline
 Service |Function
 --------|-----------
-S3      |Store and handle website traffic
-Route 53 |Domain registrar and DNS handling, routing & geo-fencing
+S3          | Store website files and serve content
+Route 53    | Domain registrar, DNS handling, routing & geo-fencing
 Cloud Front | Maintain a cache of the website and improve load times
 
 
