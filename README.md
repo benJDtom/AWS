@@ -1,7 +1,7 @@
 # AWS
 My journey to learning and understanding AWS.
 
-**2020-06-13:** Sucessfully completed the AWS SAA-C01 and recieved my certifiaction as an AWS Certified Solutions Architect - Associate
+**2020-06-13:** Successfully passed the *AWS Certified Solutions Architect – Associate* exam - [Link](https://www.youracclaim.com/badges/ad704ac3-49aa-4e13-9fd8-aa95f7cde3ae/linked_in)
 
 # Website Project
 ## Inital Planning and Research
