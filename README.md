@@ -36,7 +36,10 @@ To keep costs down and achieve cost optimization, I am planning to use an S3 buc
 ## Outline
 Service |Function
 --------|-----------
-S3      | Store and handle website traffic
+S3      |Store and handle website traffic
+Route 53 |Domain registrar and DNS handling, routing & geo-fencing
+Cloud Front | Maintain a cache of the website and improve load times
+
 
 
 ## Phase 2: Build & Test
