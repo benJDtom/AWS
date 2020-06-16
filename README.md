@@ -18,8 +18,9 @@ There are many services that could host a website in AWS, including the followin
 ### Relevant AWS Documentation
 * [AWS Websites](https://aws.amazon.com/websites/)
 * [Building Static Websits on AWS Whitepaper](http://d0.awsstatic.com/whitepapers/Building%20Static%20Websites%20on%20AWS.pdf)
-* [Hosting a static website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
-* [Logging web traffic](https://docs.aws.amazon.com/AmazonS3/latest/dev/LoggingWebsiteTraffic.html)
+* [Hosting a Static Website on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
+* [Logging Web Traffic](https://docs.aws.amazon.com/AmazonS3/latest/dev/LoggingWebsiteTraffic.html)
+* [Contact Form for S3 Static Websites](https://aws.amazon.com/blogs/architecture/create-dynamic-contact-forms-for-s3-static-websites-using-aws-lambda-amazon-api-gateway-and-amazon-ses/)
 
 ## Well Architectured Framework Planning
 ### Operational Excellence
