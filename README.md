@@ -35,16 +35,14 @@ Performance is one of my more ambitious goals in this project, as for a site thi
 To keep costs down and achieve cost optimization, I am planning to use an S3 bucket rather than one of the other services mentioned above, as an S3 bucket allows the website to be unhinged from traffic-associated costs.
 
 ## Outline
-Service |Function
---------|-----------
-S3          | Store website files and serve content
-Route 53    | Domain registrar, DNS handling, routing & geo-fencing
-CloudFront | Maintain a cache of the website and improve load times
-
-### Expected Costs
-* Domain Registration ($12 Yearly)
-* Monthly S3 Bucket (~$5 Monthly)
-* CloudFront Cache (~$5 Monthly)
+Service     |Function                                                        |Estimated Costs
+------------|----------------------------------------------------------------|-------------
+S3          | Store website files and serve content                          |$12 Yearly
+Route 53    | Domain registrar, DNS handling, routing & geo-fencing          |$5 Monthly
+CloudFront  | Maintain a cache of the website and improve load times         |$5 Monthly
+API Gateway | Handle incoming contact forms, send to Lambda                  |¢15 Monthly
+Lambda      | Handle requests for contact form                               |$1 Monthly
+SNS         | Send emails for contact form (from registered domain)          |$1 Yearly
 
 ## Build & Test
 
