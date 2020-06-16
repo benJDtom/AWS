@@ -1,6 +1,6 @@
 # AWS
-
-This contains my projects done in AWS, and my journey to completion. 
+My journey to learning and understanding AWS.
+**2020-06-13:** Sucessfully completed the AWS SAA-C01 and recieved my certifiaction as an AWS Certified Solutions Architect - Associate
 
 # Website Project
 ## Inital Planning and Research
