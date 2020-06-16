@@ -34,7 +34,7 @@ Performance is one of my more ambitious goals in this project, as for a site thi
 To keep costs down and achieve cost optimization, I am planning to use an S3 bucket rather than one of the other services mentioned above, as an S3 bucket allows the website to be unhinged from traffic-associated costs
 
 ## Outline
-Service | Function
+Service |Function
 --------|-----------
 S3      | Store and handle website traffic
 
