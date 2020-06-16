@@ -31,7 +31,7 @@ As this website will not be bussiness critical; reliability is not one of my big
 ### Performance Efficiency
 Performance is one of my more ambitious goals in this project, as for a site this small and simple no performance optimizations should be needed, but I hope to learn and utilize AWS Cloudfront to make load times nearly instant.
 ### Cost Optimization
-To keep costs down and achieve cost optimization, I am planning to use an S3 bucket rather than one of the other services mentioned above, as an S3 bucket allows the website to be unhinged from traffic-associated costs
+To keep costs down and achieve cost optimization, I am planning to use an S3 bucket rather than one of the other services mentioned above, as an S3 bucket allows the website to be unhinged from traffic-associated costs.
 
 ## Outline
 Service |Function
