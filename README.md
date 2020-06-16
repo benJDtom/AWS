@@ -27,7 +27,7 @@ There are many services that could host a website in AWS, including the followin
 ### Security
 This website will contain minimal personal information about myself, so some form of security would be ideal. I would like to implement geo-fencing to keep traffic limited to Canada and the United States, as I don't see a need for my content to be accessed in any other countries at this time. I want the website to only allow traffic from CloudFront through HTTPS, and not let traffic to the bucket or any unencrypted HTTP traffic.
 ### Reliability
-As this website will not be bussiness critical; reliability is not one of my biggest concerns, but I want the ability to fail over accross availibility zones. I would also like to outline(although not implement) a possible disaster recovery plan for my final implenmtation. 
+As this website will not be bussiness critical; reliability is not one of my biggest concerns, but I want the ability to fail over accross availability zones. I would also like to outline(although not implement) a possible disaster recovery plan for my final implenmtation. 
 ### Performance Efficiency
 Performance is one of my more ambitious goals in this project, as for a site this small and simple no performance optimizations should be needed, but I hope to learn and utilize AWS Cloudfront to make load times nearly instant.
 ### Cost Optimization
