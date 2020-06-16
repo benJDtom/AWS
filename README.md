@@ -3,7 +3,7 @@ My journey to learning and understanding AWS.
 
 **2020-06-13:** Successfully passed the AWS Certified Solutions Architect – Associate exam  [Link](https://www.youracclaim.com/badges/ad704ac3-49aa-4e13-9fd8-aa95f7cde3ae/linked_in)
 
-# Website Project
+# Website Project - [Link](https://futurewebsite.benJDtom.ca)
 ### Goal
 Host a basic website featuring information about me, my projects and contact information on how I can be reached in AWS using the Well Architectured Framework approach.
 
@@ -41,9 +41,9 @@ Cloud Front | Maintain a cache of the website and improve load times
 
 
 
-## Phase 2: Build & Test
+## Build & Test
 
-
+*Section in progress*
 
 # AWS Docs & Links
 ## Docs
