@@ -3,7 +3,7 @@ My journey to learning and understanding AWS.
 
 **2020-06-13:** Successfully passed the AWS Certified Solutions Architect – Associate exam  [Link](https://www.youracclaim.com/badges/ad704ac3-49aa-4e13-9fd8-aa95f7cde3ae/linked_in)
 
-# Personal Website Project - [Link](https://futurewebsite.benJDtom.ca)
+# Personal Website Project - [Link](https://futurewebsite.benJDtom.com)
 ### Goal
 Host a basic website featuring information about me, my projects and contact information on how I can be reached in AWS using the Well Architectured Framework approach.
 
@@ -25,7 +25,7 @@ There are many services that could host a website in AWS, including the followin
 ### Operational Excellence
  I would like to implement traffic logging to see how heavy the load is on the website and monitor where traffic is coming from to ensure everything is working correctly and as intended.
 ### Security
-This website will contain minimal personal information about myself, so some form of security would be ideal. I would like to implement geo-fencing to keep traffic limited to Canada and the United States, as I don't see a need for my content to be accessed in any other countries at this time. I want the website to use HTTPS and to block all traffic that is not using HTTPS, to ensure secure access to the site.
+This website will contain minimal personal information about myself, so some form of security would be ideal. I would like to implement geo-fencing to keep traffic limited to Canada and the United States, as I don't see a need for my content to be accessed in any other countries at this time. I want the website to only allow traffic from CloudFront through HTTPS, and not let traffic to the bucket or any unencrypted HTTP traffic.
 ### Reliability
 As this website will not be bussiness critical; reliability is not one of my biggest concerns, but I want the ability to fail over accross availibility zones. I would also like to outline(although not implement) a possible disaster recovery plan for my final implenmtation. 
 ### Performance Efficiency
@@ -41,9 +41,9 @@ Route 53    | Domain registrar, DNS handling, routing & geo-fencing
 CloudFront | Maintain a cache of the website and improve load times
 
 ### Expected Costs
-* Domain Registration (~$20)
-* Monthly S3 Bucket (~$5 Maximum/month)
-* CloudFront Cache (~$5 Maximum/month)
+* Domain Registration ($12 Yearly)
+* Monthly S3 Bucket (~$5 Monthly)
+* CloudFront Cache (~$5 Monthly)
 
 ## Build & Test
 
