@@ -52,8 +52,26 @@ DISCLAIMER: I am not a developer, and give all credit for the template to HTML5U
 ![domain](/images/domain.png)
 2. Create an S3 bucket for the website
 ![bucket](/images/bucket.png)
-3. Ensure that static website hosting is enabled and setup for the bucket
+3. Upload website files to the bucket
+4. Ensure that static website hosting is enabled
 ![hosting](/images/hosting.png)
+5. In Route 53, create an A record pointed to the bucket you created earlier for the domain you purchased
+
+The static website is now setup! If you want the website to work without Cloud Front, just enable public access and you're done.
+We will be enabling Cloud Front for benjdtom.com and the below steps detail how this was done. This ensurse greater security and speed, allowing HTTPS and caching to be used.
+
+6. Create a new Cloud Front distribution
+7. Set Origin Domain Name to the bucket you created earlier
+![odn](/images/odn.png)
+8. Set the Restrict Bucket Access to Yes, Origin Access Identity to Create a New Identity, and Grant Read Permissions on Bucket to Yes
+![access](/images/access.png)
+9. Under Default Cache Behavior Settings, select what you would like done with HTTP viewers. In my case I set Viewer Protocol Policy to Redirect HTTP to HTTPS
+![http](/images/http.png)
+10. Use the "Request or Import a Certificate with ACM" wizard to get an SSL Certificate to ensure HTTPS will function correctly
+11. Set Default Root Object to index.html so users can go to benjdtom.com and not have to use benjdtom.com/index.html
+12. Set (or change) your A record in Route 53 to be pointed at your Cloud Front Distribution
+
+The static website has now been created utilizing Route 53, S3 and Cloud Front
 
 # AWS Docs & Links
 ## Docs
