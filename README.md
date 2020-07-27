@@ -24,7 +24,7 @@ There are many services that could host a website in AWS, including the followin
 
 ## Well Architectured Framework Planning
 ### Operational Excellence
- I would like to implement traffic logging to see how heavy the load is on the website and monitor where traffic is coming from to ensure everything is working correctly and as intended.
+I would like to implement traffic logging to see how heavy the load is on the website and monitor where traffic is coming from to ensure everything is working correctly and as intended.
 ### Security
 This website will contain minimal personal information about myself, so some form of security would be ideal. I would like to implement geo-fencing to keep traffic limited to Canada and the United States, as I don't see a need for my content to be accessed in any other countries at this time. I want the website to only allow traffic from CloudFront through HTTPS, and not let traffic to the bucket or any unencrypted HTTP traffic.
 ### Reliability
@@ -58,7 +58,7 @@ DISCLAIMER: I am not a developer, and give all credit for the template to HTML5U
 5. In Route 53, create an A record pointed to the bucket you created earlier for the domain you purchased
 
 The static website is now setup! If you want the website to work without Cloud Front, just enable public access and you're done.
-We will be enabling Cloud Front for benjdtom.com and the below steps detail how this was done. This ensurse greater security and speed, allowing HTTPS and caching to be used.
+We will be enabling Cloud Front for benjdtom.com and the below steps detail how this was done. This ensures greater security and speed, allowing HTTPS and caching to be used.
 
 6. Create a new Cloud Front distribution
 7. Set Origin Domain Name to the bucket you created earlier
