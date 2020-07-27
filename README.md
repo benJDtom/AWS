@@ -66,7 +66,7 @@ We will be enabling Cloud Front for benjdtom.com and the below steps detail how 
 8. Set the Restrict Bucket Access to Yes, Origin Access Identity to Create a New Identity, and Grant Read Permissions on Bucket to Yes
 ![access](/images/access.png)
 9. Under Default Cache Behavior Settings, select what you would like done with HTTP viewers. In my case I set Viewer Protocol Policy to Redirect HTTP to HTTPS
-![http](/images/http.png)
+ ![http](/images/http.png)
 10. Use the "Request or Import a Certificate with ACM" wizard to get an SSL Certificate to ensure HTTPS will function correctly
 11. Set Default Root Object to index.html so users can go to benjdtom.com and not have to use benjdtom.com/index.html
 12. Set (or change) your A record in Route 53 to be pointed at your Cloud Front Distribution
