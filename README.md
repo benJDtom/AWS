@@ -62,7 +62,7 @@ We will be enabling Cloud Front for benjdtom.com and the below steps detail how 
 
 6. Create a new Cloud Front distribution
 7. Set Origin Domain Name to the bucket you created earlier
-<img align="left" src"images/odn.png>
+<img align="left" src="images/odn.png>
 8. Set the Restrict Bucket Access to Yes, Origin Access Identity to Create a New Identity, and Grant Read Permissions on Bucket to Yes
 ![access](/images/access.png)
 9. Under Default Cache Behavior Settings, select what you would like done with HTTP viewers. In my case I set Viewer Protocol Policy to Redirect HTTP to HTTPS
